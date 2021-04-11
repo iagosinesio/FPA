@@ -14,9 +14,13 @@ Versões mais recentes dos seguintes componentes:
 # Contato
 brunobarboza3103@gmail.com
 
+# Logo
+
+![Logo](https://user-images.githubusercontent.com/48653938/114325745-120fc880-9b08-11eb-8974-e0a137c2e021.png)
+
 # Protótipos
 
-![1](https://user-images.githubusercontent.com/48653938/114316161-c265d880-9ad8-11eb-86c7-bc4337ab14a4.png)  
+![1](https://user-images.githubusercontent.com/48653938/114325763-2784f280-9b08-11eb-8a8d-79b510ca56b8.png)
 
 ![2](https://user-images.githubusercontent.com/48653938/114316208-f7722b00-9ad8-11eb-9b7e-dd5915f7b190.png)
 
@@ -32,6 +36,7 @@ brunobarboza3103@gmail.com
 
 # Protótipo de Navegação
 
-![protótipos do app](https://user-images.githubusercontent.com/48653938/114316273-356f4f00-9ad9-11eb-98bb-74c79ce688f7.png)
+![protótipos do app](https://user-images.githubusercontent.com/48653938/114325782-3ec3e000-9b08-11eb-8419-5ea971283a56.png)
+
 
 
