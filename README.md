@@ -1,4 +1,4 @@
-# Aplicativo_FPA
+# Aplicativo PC ATIVIDADES
 Projeto da Disciplina de Fundamentos de Programação Aplicada - PPGIA (UFRPE).
 
 # Ideia Inicial do Aplicativo
@@ -22,9 +22,15 @@ brunobarboza3103@gmail.com
 
 ![1](https://user-images.githubusercontent.com/48653938/114325763-2784f280-9b08-11eb-8a8d-79b510ca56b8.png)
 
+Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 3 segundos irá direcionar para a tela 2 automaticamente.
+
 ![2](https://user-images.githubusercontent.com/48653938/114316208-f7722b00-9ad8-11eb-9b7e-dd5915f7b190.png)
 
+Tela 2: É a tela principal do aplicativo, será onde o usuário irá selecionar os filtros para pesquisar a atividade. Assim que for escolhido os filtros, o usuário deverá clicar em "Pesquisar" e será direcionado para a próxima tela.
+
 ![3](https://user-images.githubusercontent.com/48653938/114316225-0527b080-9ad9-11eb-8923-0798bf49e668.png)
+
+Tela 3: Essa tela mostrará os resultados da pesquisa, contendo o componente do Pensamento Computacional que o usuário escolheu e as atividades. É importante destacar que cada atividade listada será um endereço (link) do site onde elas estarão disponíveis. Este é um exemplo do resultado de uma pesquisa sobre atividades relacionadas ao componente "Algoritmo", ao clicar no nome da atividade será direcionado para o site.
 
 ![4](https://user-images.githubusercontent.com/48653938/114316231-0b1d9180-9ad9-11eb-9433-b9568a860970.png)
 
