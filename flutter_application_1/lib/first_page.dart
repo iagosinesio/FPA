@@ -1,33 +1,41 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/second_page.dart';
 
-class FirstPage extends StatelessWidget {
+class FirstPage extends StatefulWidget {
   @override
+  _FirstPageState createState() => _FirstPageState();
+}
+
+class _FirstPageState extends State<FirstPage> {
+  @override
+  void initState() {
+    super.initState();
+
+    Timer(Duration(seconds: 4), () {
+      Navigator.of(context).pushReplacement(MaterialPageRoute(
+        builder: (context) => SecondPage(),
+      ));
+    });
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text("PC ATIVIDADES"),
+      body: (Container(
+          child: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Image.asset(
+              'assets/imagens/te.png',
+              width: 800,
+              height: 800,
+              fit: BoxFit.contain,
+            )
+          ],
         ),
-        body: Container(
-          decoration: BoxDecoration(color: Colors.green[100]),
-          child: Center(
-            child: RaisedButton(
-              onPressed: () {
-                Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                        builder: (BuildContext context) => SecondPage()));
-              },
-              child: Text(
-                "Pesquisar Atividades",
-                textDirection: TextDirection.ltr,
-                style: TextStyle(
-                  fontSize: 20,
-                  color: Colors.black87,
-                ),
-              ),
-            ),
-          ),
-        ));
+      ))),
+    );
   }
 }
