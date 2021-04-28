@@ -20,8 +20,7 @@ brunobarboza3103@gmail.com
 
 # Protótipos
 
-![1](https://user-images.githubusercontent.com/48653938/114325763-2784f280-9b08-11eb-8a8d-79b510ca56b8.png)![Widget Tree tela 1](https://user-images.githubusercontent.com/48653938/116483067-c2960000-a85c-11eb-983c-9777e3964249.png)
-
+![Widget Tree tela 1 finalizado](https://user-images.githubusercontent.com/48653938/116483262-202a4c80-a85d-11eb-814c-7cd121fbfe89.png)
 
 Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 3 segundos irá direcionar para a tela 2 automaticamente.
 
