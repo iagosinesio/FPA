@@ -42,7 +42,8 @@ Tela 3: Essa tela mostrará os resultados da pesquisa, contendo o componente do 
 
 # Protótipo de Navegação
 
-![protótipos do app](https://user-images.githubusercontent.com/48653938/114325782-3ec3e000-9b08-11eb-8419-5ea971283a56.png)
+![protótipos do app](https://user-images.githubusercontent.com/48653938/116589208-ca07e880-a8f2-11eb-945f-a84047f248fb.png)
+
 
 
 
