@@ -20,7 +20,7 @@ brunobarboza3103@gmail.com
 
 # Protótipos
 
-![1](https://user-images.githubusercontent.com/48653938/114325763-2784f280-9b08-11eb-8a8d-79b510ca56b8.png)
+![Widget Tree tela 1 finalizado](https://user-images.githubusercontent.com/48653938/116483262-202a4c80-a85d-11eb-814c-7cd121fbfe89.png)
 
 Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 3 segundos irá direcionar para a tela 2 automaticamente.
 
@@ -42,7 +42,8 @@ Tela 3: Essa tela mostrará os resultados da pesquisa, contendo o componente do 
 
 # Protótipo de Navegação
 
-![protótipos do app](https://user-images.githubusercontent.com/48653938/114325782-3ec3e000-9b08-11eb-8419-5ea971283a56.png)
+![protótipos do app](https://user-images.githubusercontent.com/48653938/116589208-ca07e880-a8f2-11eb-945f-a84047f248fb.png)
+
 
 
 
