@@ -44,6 +44,10 @@ Tela 3: Essa tela mostrará os resultados da pesquisa, contendo o componente do 
 
 ![protótipos do app](https://user-images.githubusercontent.com/48653938/116589208-ca07e880-a8f2-11eb-945f-a84047f248fb.png)
 
+# Vídeo de divulgação
+
+https://www.youtube.com/watch?v=uXz5xzVFvjE
+
 
 
 
