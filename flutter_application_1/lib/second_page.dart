@@ -1,47 +1,52 @@
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
-  bool _sel = false;
+enum WhyFarther { harder, smarter, selfStarter, tradingCharter }
+
+class SecondPage extends StatefulWidget {
+  @override
+  _SecondPageState createState() => _SecondPageState();
+}
+
+class _SecondPageState extends State<SecondPage> {
+  dynamic _selection = WhyFarther.harder;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("ESCOLHA A TEMÁTICA"),
       ),
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
-          children: <Widget>[
-            Row(
-              children: <Widget>[
-                Container(
-                  margin: EdgeInsets.all(10.0),
-                  padding: EdgeInsets.all(10.0),
-                  alignment: Alignment.topLeft,
-                  width: 300,
-                  height: 70,
-                  decoration: BoxDecoration(
-                    color: Colors.green[100],
-                    border: Border.all(),
-                  ),
-                  child: Text("Atividades Plugadas",
-                      style: TextStyle(fontSize: 25)),
-                ),
-                Checkbox(
-                  onChanged: (bool resp) {
-                    setState(() {
-                      _sel = resp;
-                    });
-                  },
-                  value: _sel,
-                ),
-              ],
-            )
-          ],
-        ),
+      body: Column(
+        children: [
+          PopupMenuButton<WhyFarther>(
+            child: ListTile(
+              title: Text(_selection.toString()),
+            ),
+            onSelected: (WhyFarther result) {
+              setState(() {
+                _selection = result;
+              });
+            },
+            itemBuilder: (BuildContext context) => <PopupMenuEntry<WhyFarther>>[
+              const PopupMenuItem<WhyFarther>(
+                value: WhyFarther.harder,
+                child: Text('Working a lot harder'),
+              ),
+              const PopupMenuItem<WhyFarther>(
+                value: WhyFarther.smarter,
+                child: Text('Being a lot smarter'),
+              ),
+              const PopupMenuItem<WhyFarther>(
+                value: WhyFarther.selfStarter,
+                child: Text('Being a self-starter'),
+              ),
+              const PopupMenuItem<WhyFarther>(
+                value: WhyFarther.tradingCharter,
+                child: Text('Placed in charge of trading charter'),
+              ),
+            ],
+          )
+        ],
       ),
     );
   }
-
-  void setState(Null Function() param0) {}
 }
