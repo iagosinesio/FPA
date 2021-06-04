@@ -15,19 +15,19 @@ class _SecondPageState extends State<SecondPage> {
         title: Text("Escolha as Opções"),
       ),
       body: Container(
-        color: Colors.green[100],
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
-              margin: EdgeInsets.symmetric(horizontal: 40.0, vertical: 5.0),
-              padding: EdgeInsets.symmetric(horizontal: 60.0, vertical: 5.0),
+              width: 200,
+              height: 40,
+            ),
+            Container(
               width: 400,
               height: 55,
               decoration: BoxDecoration(
                 color: Colors.green[50],
-                border: Border.all(),
               ),
               child: Align(
                   alignment: Alignment.topCenter,
@@ -40,6 +40,10 @@ class _SecondPageState extends State<SecondPage> {
                           fontWeight: FontWeight.bold),
                     ),
                   )),
+            ),
+            Container(
+              width: 400,
+              height: 100,
             ),
             Container(
               child: Align(
@@ -72,6 +76,8 @@ class _SecondPageState extends State<SecondPage> {
                           width: 300,
                           height: 100,
                           child: RaisedButton(
+                            color: Colors.red[200],
+                            elevation: 4.0,
                             onPressed: () {
                               Navigator.of(context).push(MaterialPageRoute(
                                   builder: (context) => FourtPage()));
