@@ -41,7 +41,16 @@ class ThirdPage extends StatelessWidget {
             ),
             Container(
               width: 400,
-              height: 55,
+              height: 70,
+              child: Center(
+                child: Text(
+                  "Escolha o componente.",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 23,
+                      fontWeight: FontWeight.w300),
+                ),
+              ),
             ),
             Container(
               child: Align(
@@ -52,7 +61,7 @@ class ThirdPage extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.blue[200],
@@ -64,14 +73,14 @@ class ThirdPage extends StatelessWidget {
                             child: Text(
                               "Algoritmo",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.blue[100],
@@ -83,14 +92,14 @@ class ThirdPage extends StatelessWidget {
                             child: Text(
                               "Decomposição",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.blue[200],
@@ -102,14 +111,14 @@ class ThirdPage extends StatelessWidget {
                             child: Text(
                               "Abstração",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.blue[100],
@@ -121,14 +130,14 @@ class ThirdPage extends StatelessWidget {
                             child: Text(
                               "Reconhecimento de Padrões",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.blue[200],
@@ -140,8 +149,8 @@ class ThirdPage extends StatelessWidget {
                             child: Text(
                               "Todos os Componentes",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),

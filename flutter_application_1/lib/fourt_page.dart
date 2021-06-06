@@ -47,7 +47,16 @@ class _FourtPageState extends State<FourtPage> {
             ),
             Container(
               width: 400,
-              height: 55,
+              height: 70,
+              child: Center(
+                child: Text(
+                  "Escolha o componente.",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 23,
+                      fontWeight: FontWeight.w300),
+                ),
+              ),
             ),
             Container(
               child: Align(
@@ -58,7 +67,7 @@ class _FourtPageState extends State<FourtPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: <Widget>[
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.red[200],
@@ -70,14 +79,14 @@ class _FourtPageState extends State<FourtPage> {
                             child: Text(
                               "Algoritmo",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.red[100],
@@ -89,14 +98,14 @@ class _FourtPageState extends State<FourtPage> {
                             child: Text(
                               "Decomposição",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.red[200],
@@ -108,14 +117,14 @@ class _FourtPageState extends State<FourtPage> {
                             child: Text(
                               "Abstração",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.red[100],
@@ -127,14 +136,14 @@ class _FourtPageState extends State<FourtPage> {
                             child: Text(
                               "Reconhecimento de Padrões",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
                         ),
                         SizedBox(
-                          width: 300,
+                          width: 350,
                           height: 100,
                           child: RaisedButton(
                             color: Colors.red[200],
@@ -146,8 +155,8 @@ class _FourtPageState extends State<FourtPage> {
                             child: Text(
                               "Todos os Componentes",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),

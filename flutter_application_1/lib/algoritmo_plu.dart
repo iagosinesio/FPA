@@ -39,6 +39,15 @@ class _AlgoritmoPlugadoState extends State<AlgoritmoPlugado> {
                     ),
                   )),
             ),
+            Container(
+              width: 200,
+              height: 40,
+            ),
+            Container(
+              child: Ink(
+                child: Text('Atividade'),
+              ),
+            )
           ],
         ),
       ),

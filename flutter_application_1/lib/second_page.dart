@@ -43,7 +43,16 @@ class _SecondPageState extends State<SecondPage> {
             ),
             Container(
               width: 400,
-              height: 100,
+              height: 150,
+              child: Center(
+                child: Text(
+                  "Escolha a temática que você procura.",
+                  style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 23,
+                      fontWeight: FontWeight.w300),
+                ),
+              ),
             ),
             Container(
               child: Align(
@@ -66,11 +75,15 @@ class _SecondPageState extends State<SecondPage> {
                             child: Text(
                               "Atividades Plugadas",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),
+                        ),
+                        Container(
+                          width: 300,
+                          height: 30,
                         ),
                         SizedBox(
                           width: 300,
@@ -85,8 +98,8 @@ class _SecondPageState extends State<SecondPage> {
                             child: Text(
                               "Atividades Desplugadas",
                               style: TextStyle(
-                                  color: Colors.grey,
-                                  fontSize: 20,
+                                  color: Colors.grey[800],
+                                  fontSize: 23,
                                   fontWeight: FontWeight.bold),
                             ),
                           ),

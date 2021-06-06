@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/second_page.dart';
+import 'package:flutter_application_1/intro.dart';
+import 'package:flutter_application_1/intro.dart';
 
 class FirstPage extends StatefulWidget {
   @override
@@ -15,7 +16,7 @@ class _FirstPageState extends State<FirstPage> {
 
     Timer(Duration(seconds: 4), () {
       Navigator.of(context).pushReplacement(MaterialPageRoute(
-        builder: (context) => SecondPage(),
+        builder: (context) => Intro(),
       ));
     });
   }
