@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class AlgoritmoPlugado extends StatefulWidget {
-  @override
-  _AlgoritmoPlugadoState createState() => _AlgoritmoPlugadoState();
-}
+class AlgoritmoPlugado extends StatelessWidget {
+  Future<void> _launchLink(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url, forceWebView: false, forceSafariVC: false);
+    } else {
+      print('Não pode executar o link $url');
+    }
+  }
 
-class _AlgoritmoPlugadoState extends State<AlgoritmoPlugado> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,8 +49,17 @@ class _AlgoritmoPlugadoState extends State<AlgoritmoPlugado> {
               height: 40,
             ),
             Container(
-              child: Ink(
-                child: Text('Atividade'),
+              child: Center(
+                child: Column(
+                  children: [
+                    TextButton.icon(
+                      icon: Icon(Icons.link),
+                      label: Text("App Inventor"),
+                      onPressed: () =>
+                          _launchLink('https://appinventor.mit.edu/'),
+                    ),
+                  ],
+                ),
               ),
             )
           ],
