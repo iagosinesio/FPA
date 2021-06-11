@@ -1,16 +1,9 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/link.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class AlgoritmoPlugado extends StatelessWidget {
-  Future<void> _launchLink(String url) async {
-    if (await canLaunch(url)) {
-      await launch(url, forceWebView: false, forceSafariVC: false);
-    } else {
-      print('Não pode executar o link $url');
-    }
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -52,12 +45,15 @@ class AlgoritmoPlugado extends StatelessWidget {
               child: Center(
                 child: Column(
                   children: [
-                    TextButton.icon(
-                      icon: Icon(Icons.link),
-                      label: Text("App Inventor"),
-                      onPressed: () =>
-                          _launchLink('https://appinventor.mit.edu/'),
-                    ),
+                    InkWell(
+                        child: Text('App Inventor',
+                            style: TextStyle(color: Colors.blue, fontSize: 25)),
+                        onTap: () => launch('https://appinventor.mit.edu/')),
+                    InkWell(
+                        child: Text('Aventuras de Biguió',
+                            style: TextStyle(color: Colors.blue, fontSize: 25)),
+                        onTap: () => launch(
+                            'http://thinktedlab.org/jogos/aventuras-de-biguio/')),
                   ],
                 ),
               ),
