@@ -1,16 +1,14 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class RecoPad extends StatefulWidget {
-  @override
-  _RecoPadState createState() => _RecoPadState();
-}
-
-class _RecoPadState extends State<RecoPad> {
+class RecoPad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("REC. DE PADRÕES"),
+        title: Text("Rec. de Padrões Plugado"),
       ),
       body: Container(
         child: Column(
@@ -31,7 +29,7 @@ class _RecoPadState extends State<RecoPad> {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "REC. DE PADRÕES PLUGADO",
+                      "REC. DE PADRÕES",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
@@ -39,6 +37,31 @@ class _RecoPadState extends State<RecoPad> {
                     ),
                   )),
             ),
+            Container(
+              width: 200,
+              height: 40,
+            ),
+            Container(
+              child: Center(
+                child: Column(
+                  children: [
+                    InkWell(
+                        child: Text('App Inventor',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://appinventor.mit.edu/')),
+                    InkWell(
+                        child: Text('Code',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://code.org/')),
+                    InkWell(
+                        child: Text('Linguagem Logo',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () =>
+                            launch('https://projetologo.webs.com/slogo.html')),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),

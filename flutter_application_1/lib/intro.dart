@@ -41,10 +41,10 @@ class _IntroState extends State<Intro> {
               ),
               Container(
                 width: 400,
-                height: 150,
+                height: 300,
                 child: Center(
                   child: Text(
-                    "Seja Bem vindo ao PC ATIVIDADES! Aqui você vai encontrar um acervo de links de atividades sobre Pensamento Computacional!",
+                    "Seja Bem vindo ao PC ATIVIDADES! Aqui você vai encontrar um acervo de links de atividades sobre Pensamento Computacional! Clic no botão INICIAR para começar à busca pelas atividades.",
                     style: TextStyle(
                         color: Colors.black,
                         fontSize: 23,

@@ -1,16 +1,14 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class TodosCom extends StatefulWidget {
-  @override
-  _TodosComState createState() => _TodosComState();
-}
-
-class _TodosComState extends State<TodosCom> {
+class TodosCom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("TODOS"),
+        title: Text("Todos Plugado"),
       ),
       body: Container(
         child: Column(
@@ -31,7 +29,7 @@ class _TodosComState extends State<TodosCom> {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "TODOS PLUGADO",
+                      "TODOS OS COMPONEMTES",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
@@ -39,6 +37,57 @@ class _TodosComState extends State<TodosCom> {
                     ),
                   )),
             ),
+            Container(
+              width: 200,
+              height: 40,
+            ),
+            Container(
+              child: Center(
+                child: Column(
+                  children: [
+                    InkWell(
+                        child: Text('Computação Plugada',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://play.google.com/store/apps/details?id=com.pluggedcomputing.mobile')),
+                    InkWell(
+                        child: Text('Code',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://code.org/')),
+                    InkWell(
+                        child: Text('Blockly Games',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () =>
+                            launch('https://blockly.games/?lang=pt-br')),
+                    InkWell(
+                        child: Text('Linguagem Logo',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () =>
+                            launch('https://projetologo.webs.com/slogo.html')),
+                    InkWell(
+                        child: Text('Tinkercard',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://www.tinkercad.com/')),
+                    InkWell(
+                        child: Text('App Inventor',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://appinventor.mit.edu/')),
+                    InkWell(
+                        child: Text('Scratch Jr.',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://www.scratchjr.org/')),
+                    InkWell(
+                        child: Text('Scratch',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://scratch.mit.edu/')),
+                    InkWell(
+                        child: Text('App Inventor',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://appinventor.mit.edu/')),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),

@@ -1,16 +1,14 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class AbstPlu extends StatefulWidget {
-  @override
-  _AbstPluState createState() => _AbstPluState();
-}
-
-class _AbstPluState extends State<AbstPlu> {
+class AbstPlu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ABSTRAÇÃO PLUGADO"),
+        title: Text("Abstração Plugado"),
       ),
       body: Container(
         child: Column(
@@ -31,7 +29,7 @@ class _AbstPluState extends State<AbstPlu> {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "ABSTRAÇÃO PLUGADO",
+                      "ALGORITMO PLUGADO",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
@@ -39,6 +37,31 @@ class _AbstPluState extends State<AbstPlu> {
                     ),
                   )),
             ),
+            Container(
+              width: 200,
+              height: 40,
+            ),
+            Container(
+              child: Center(
+                child: Column(
+                  children: [
+                    InkWell(
+                        child: Text('App Inventor',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://appinventor.mit.edu/')),
+                    InkWell(
+                        child: Text('Code',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://code.org/')),
+                    InkWell(
+                        child: Text('Linguagem Logo',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () =>
+                            launch('https://projetologo.webs.com/slogo.html')),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),

@@ -8,7 +8,7 @@ class AlgoritmoPlugado extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ALGORITMO PLUGADO"),
+        title: Text("Algoritmo Plugado"),
       ),
       body: Container(
         child: Column(
@@ -47,13 +47,31 @@ class AlgoritmoPlugado extends StatelessWidget {
                   children: [
                     InkWell(
                         child: Text('App Inventor',
-                            style: TextStyle(color: Colors.blue, fontSize: 25)),
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
                         onTap: () => launch('https://appinventor.mit.edu/')),
                     InkWell(
                         child: Text('Aventuras de Biguió',
-                            style: TextStyle(color: Colors.blue, fontSize: 25)),
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
                         onTap: () => launch(
                             'http://thinktedlab.org/jogos/aventuras-de-biguio/')),
+                    InkWell(
+                        child: Text('Comput It',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'http://compute-it.toxicode.fr/?hour-of-code')),
+                    InkWell(
+                        child: Text('Light Bot',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://www.lightbot.lu/')),
+                    InkWell(
+                        child: Text('RoboMind',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch('https://www.robomind.net/')),
+                    InkWell(
+                        child: Text('Linguagem Logo',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () =>
+                            launch('https://projetologo.webs.com/slogo.html')),
                   ],
                 ),
               ),

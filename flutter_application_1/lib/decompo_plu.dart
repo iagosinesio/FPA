@@ -1,16 +1,14 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class DecomPlu extends StatefulWidget {
-  @override
-  _DecomPluState createState() => _DecomPluState();
-}
-
-class _DecomPluState extends State<DecomPlu> {
+class DecomPlu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("DECOMPOSIÇÃO PLUGADO"),
+        title: Text("Decomposição Pugado"),
       ),
       body: Container(
         child: Column(
@@ -31,7 +29,7 @@ class _DecomPluState extends State<DecomPlu> {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "DECOMPOSIÇÃO PLUGADO",
+                      "ALGORITMO PLUGADO",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
@@ -39,6 +37,23 @@ class _DecomPluState extends State<DecomPlu> {
                     ),
                   )),
             ),
+            Container(
+              width: 200,
+              height: 40,
+            ),
+            Container(
+              child: Center(
+                child: Column(
+                  children: [
+                    InkWell(
+                        child: Text('Light bot Hora do Código',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://play.google.com/store/apps/details?id=com.lightbot.lightbothoc')),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),

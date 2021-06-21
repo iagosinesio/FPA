@@ -10,7 +10,7 @@ class ThirdPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ATIVIDADES PLUGADAS"),
+        title: Text("Atividades Plugadas"),
       ),
       body: Container(
         child: Column(
