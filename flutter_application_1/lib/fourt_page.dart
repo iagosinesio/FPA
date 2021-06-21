@@ -16,7 +16,7 @@ class _FourtPageState extends State<FourtPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ATIVIDADES DESPLUGADAS"),
+        title: Text("Atividades Desplugadas"),
       ),
       body: Container(
         child: Column(

@@ -1,16 +1,14 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/link.dart';
+import 'package:url_launcher/url_launcher.dart';
 
-class AbstDes extends StatefulWidget {
-  @override
-  _AbstDesState createState() => _AbstDesState();
-}
-
-class _AbstDesState extends State<AbstDes> {
+class AbstDes extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ABSTRAÇÃO DESPLUGADO"),
+        title: Text("Abstração Desplugada"),
       ),
       body: Container(
         child: Column(
@@ -31,7 +29,7 @@ class _AbstDesState extends State<AbstDes> {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "ABSTRAÇÃO DESPLUGADO",
+                      "ABSTRAÇÃO DESPLUGADA",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
@@ -39,6 +37,68 @@ class _AbstDesState extends State<AbstDes> {
                     ),
                   )),
             ),
+            Container(
+              width: 200,
+              height: 40,
+            ),
+            Container(
+              child: Center(
+                child: Column(
+                  children: [
+                    InkWell(
+                        child: Text('Cidade Enlameada',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'http://desplugada.ime.unicamp.br/atividade9/index.html')),
+                    InkWell(
+                        child: Text('Estradas de Gelo',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'http://desplugada.ime.unicamp.br/atividade16/index.html')),
+                    InkWell(
+                        child: Text('O Cartógrafo Pobre',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'http://desplugada.ime.unicamp.br/atividade14/index.html')),
+                    InkWell(
+                        child: Text('Cidade Turística',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'http://desplugada.ime.unicamp.br/atividade15/index.html')),
+                    InkWell(
+                        child: Text('Seguindo Instruções',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'http://desplugada.ime.unicamp.br/atividade12/index.html')),
+                    InkWell(
+                        child: Text('Controle Remoto',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://www.computacional.com.br/#atividades')),
+                    InkWell(
+                        child: Text('Bugs',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://www.computacional.com.br/#atividades')),
+                    InkWell(
+                        child: Text('Cupcakes',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://www.computacional.com.br/#atividades')),
+                    InkWell(
+                        child: Text('Turma da Mônica',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://www.computacional.com.br/#atividades')),
+                    InkWell(
+                        child: Text('O que Será?',
+                            style: TextStyle(color: Colors.blue, fontSize: 30)),
+                        onTap: () => launch(
+                            'https://www.computacional.com.br/#atividades')),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),
