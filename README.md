@@ -34,12 +34,13 @@ Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a
 
 ![Telas 6, 7, 8, 9, 10](https://user-images.githubusercontent.com/48653938/122934641-177a6200-d346-11eb-8220-81414a330f09.jpg)
 
-Telas...
+- Caso o usuário tenha escolhido a temática "plugada", esses serão os links das atividades plugadas a partir da escolha do componemte.
 
 ![Telas 11, 12, 13, 14, 15](https://user-images.githubusercontent.com/48653938/122934698-23662400-d346-11eb-9e9d-387390160e01.jpg)
 
 
-Telas...
+- No entanto, se o usuário escolhe a temática "desplugada", esses serão os links das atividades desplugadas a partir da escolha do componemte. 
+- O funcionamtendo fica mais claro no Protótipo de Navegação.
 
 
 
