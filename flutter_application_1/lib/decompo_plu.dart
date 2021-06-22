@@ -29,7 +29,7 @@ class DecomPlu extends StatelessWidget {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "ALGORITMO PLUGADO",
+                      "DECOMPOSIÇÃO PLUGADO",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
