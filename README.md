@@ -23,12 +23,14 @@ brunobarboza3103@gmail.com
 ![Tela 1 W](https://user-images.githubusercontent.com/48653938/122934445-ea2db400-d345-11eb-9850-dd5e600df27e.png)
 
 
-Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 3 segundos irá direcionar para a tela 2 automaticamente.
+Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 4 segundos irá direcionar para a tela 2 automaticamente.
 
 
 ![Tela 2, 3, 4, 5](https://user-images.githubusercontent.com/48653938/122934562-02053800-d346-11eb-8634-548c92ae70b9.jpg)
 
-Telas...
+- A tela 2 é uma tela de introdução, é o primeiro contado do usuário com a aplicação. Deverá ser pressionado o botão para prosseguir com a utilização.
+- A tela 3 é a tela de Temática, aqui o usuário deve decidir qual a temática das atividades que ele procura.
+- A tela 4 e 5 apresentam os Componemtes básicos das atividades sobre Pensamento Computacional. Esta tela irá depender da escolha do usuário na tela anterior.
 
 ![Telas 6, 7, 8, 9, 10](https://user-images.githubusercontent.com/48653938/122934641-177a6200-d346-11eb-8220-81414a330f09.jpg)
 
