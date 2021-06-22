@@ -20,29 +20,29 @@ brunobarboza3103@gmail.com
 
 # Protótipos
 
-![Widget Tree tela 1 finalizado](https://user-images.githubusercontent.com/48653938/116483262-202a4c80-a85d-11eb-814c-7cd121fbfe89.png)
+![Tela 1 W](https://user-images.githubusercontent.com/48653938/122934445-ea2db400-d345-11eb-9850-dd5e600df27e.png)
+
 
 Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 3 segundos irá direcionar para a tela 2 automaticamente.
 
-![2](https://user-images.githubusercontent.com/48653938/114316208-f7722b00-9ad8-11eb-9b7e-dd5915f7b190.png)
 
-Tela 2: É a tela principal do aplicativo, será onde o usuário irá selecionar os filtros para pesquisar a atividade. Assim que for escolhido os filtros, o usuário deverá clicar em "Pesquisar" e será direcionado para a próxima tela.
+![Tela 2, 3, 4, 5](https://user-images.githubusercontent.com/48653938/122934562-02053800-d346-11eb-8634-548c92ae70b9.jpg)
 
-![3](https://user-images.githubusercontent.com/48653938/114316225-0527b080-9ad9-11eb-8923-0798bf49e668.png)
+Telas...
 
-Tela 3: Essa tela mostrará os resultados da pesquisa, contendo o componente do Pensamento Computacional que o usuário escolheu e as atividades. É importante destacar que cada atividade listada será um endereço (link) do site onde elas estarão disponíveis. Este é um exemplo do resultado de uma pesquisa sobre atividades relacionadas ao componente "Algoritmo", ao clicar no nome da atividade será direcionado para o site.
+![Telas 6, 7, 8, 9, 10](https://user-images.githubusercontent.com/48653938/122934641-177a6200-d346-11eb-8220-81414a330f09.jpg)
 
-![4](https://user-images.githubusercontent.com/48653938/114316231-0b1d9180-9ad9-11eb-9433-b9568a860970.png)
+Telas...
 
-![5](https://user-images.githubusercontent.com/48653938/114316238-140e6300-9ad9-11eb-876d-10c0ebbfe728.png)
+![Telas 11, 12, 13, 14, 15](https://user-images.githubusercontent.com/48653938/122934698-23662400-d346-11eb-9e9d-387390160e01.jpg)
 
-![6](https://user-images.githubusercontent.com/48653938/114316242-1a9cda80-9ad9-11eb-824d-b50437941ca8.png)
 
-![7](https://user-images.githubusercontent.com/48653938/114316256-225c7f00-9ad9-11eb-812f-271776f57304.png)
+Telas...
+
+
 
 # Protótipo de Navegação
 
-![protótipos do app](https://user-images.githubusercontent.com/48653938/116589208-ca07e880-a8f2-11eb-945f-a84047f248fb.png)
 
 # Vídeo de divulgação
 
