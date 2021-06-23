@@ -54,7 +54,7 @@ Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a
 
 https://user-images.githubusercontent.com/48653938/117438657-380e6a00-af08-11eb-8159-a91c0b61400b.mp4
 
-#Vídeo de Apresentação do aplicativo
+# Vídeo de Apresentação do aplicativo
 
 https://www.youtube.com/watch?v=gHXC-UZuKL8
 
