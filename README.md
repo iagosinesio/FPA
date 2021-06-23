@@ -16,11 +16,12 @@ brunobarboza3103@gmail.com
 
 # Logo
 
-![Logo](https://user-images.githubusercontent.com/48653938/114325745-120fc880-9b08-11eb-8974-e0a137c2e021.png)
+![Logo](https://user-images.githubusercontent.com/48653938/123106424-00ec0d80-d40f-11eb-8b29-90e3dd5b01d0.png)
 
 # Protótipos
 
-![Tela 1 W](https://user-images.githubusercontent.com/48653938/122934445-ea2db400-d345-11eb-9850-dd5e600df27e.png)
+![Tela 1 W](https://user-images.githubusercontent.com/48653938/123101013-ff6c1680-d409-11eb-9cf0-32a75d920337.png)
+
 
 
 Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 4 segundos irá direcionar para a tela 2 automaticamente.
@@ -46,7 +47,7 @@ Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a
 
 # Protótipo de Navegação
 
-![navegação](https://user-images.githubusercontent.com/48653938/123013727-217a8000-d39b-11eb-828b-59472ee18fe9.png)
+![navegação](https://user-images.githubusercontent.com/48653938/123101429-6f7a9c80-d40a-11eb-8c06-86f9b51e6690.png)
 
 
 # Vídeo de divulgação
