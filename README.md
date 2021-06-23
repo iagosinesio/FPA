@@ -20,29 +20,34 @@ brunobarboza3103@gmail.com
 
 # Protótipos
 
-![Widget Tree tela 1 finalizado](https://user-images.githubusercontent.com/48653938/116483262-202a4c80-a85d-11eb-814c-7cd121fbfe89.png)
+![Tela 1 W](https://user-images.githubusercontent.com/48653938/122934445-ea2db400-d345-11eb-9850-dd5e600df27e.png)
 
-Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 3 segundos irá direcionar para a tela 2 automaticamente.
 
-![2](https://user-images.githubusercontent.com/48653938/114316208-f7722b00-9ad8-11eb-9b7e-dd5915f7b190.png)
+Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 4 segundos irá direcionar para a tela 2 automaticamente.
 
-Tela 2: É a tela principal do aplicativo, será onde o usuário irá selecionar os filtros para pesquisar a atividade. Assim que for escolhido os filtros, o usuário deverá clicar em "Pesquisar" e será direcionado para a próxima tela.
 
-![3](https://user-images.githubusercontent.com/48653938/114316225-0527b080-9ad9-11eb-8923-0798bf49e668.png)
+![Tela 2, 3, 4, 5](https://user-images.githubusercontent.com/48653938/122934562-02053800-d346-11eb-8634-548c92ae70b9.jpg)
 
-Tela 3: Essa tela mostrará os resultados da pesquisa, contendo o componente do Pensamento Computacional que o usuário escolheu e as atividades. É importante destacar que cada atividade listada será um endereço (link) do site onde elas estarão disponíveis. Este é um exemplo do resultado de uma pesquisa sobre atividades relacionadas ao componente "Algoritmo", ao clicar no nome da atividade será direcionado para o site.
+- A tela 2 é uma tela de introdução, é o primeiro contado do usuário com a aplicação. Deverá ser pressionado o botão para prosseguir com a utilização.
+- A tela 3 é a tela de Temática, aqui o usuário deve decidir qual a temática das atividades que ele procura.
+- A tela 4 e 5 apresentam os Componemtes básicos das atividades sobre Pensamento Computacional. Esta tela irá depender da escolha do usuário na tela anterior.
 
-![4](https://user-images.githubusercontent.com/48653938/114316231-0b1d9180-9ad9-11eb-9433-b9568a860970.png)
+![Telas 6, 7, 8, 9, 10](https://user-images.githubusercontent.com/48653938/122934641-177a6200-d346-11eb-8220-81414a330f09.jpg)
 
-![5](https://user-images.githubusercontent.com/48653938/114316238-140e6300-9ad9-11eb-876d-10c0ebbfe728.png)
+- Caso o usuário tenha escolhido a temática "plugada", esses serão os links das atividades plugadas a partir da escolha do componemte.
 
-![6](https://user-images.githubusercontent.com/48653938/114316242-1a9cda80-9ad9-11eb-824d-b50437941ca8.png)
+![Telas 11, 12, 13, 14, 15](https://user-images.githubusercontent.com/48653938/122934698-23662400-d346-11eb-9e9d-387390160e01.jpg)
 
-![7](https://user-images.githubusercontent.com/48653938/114316256-225c7f00-9ad9-11eb-812f-271776f57304.png)
+
+- No entanto, se o usuário escolhe a temática "desplugada", esses serão os links das atividades desplugadas a partir da escolha do componemte. 
+- O funcionamtendo fica mais claro no Protótipo de Navegação.
+
+
 
 # Protótipo de Navegação
 
-![protótipos do app](https://user-images.githubusercontent.com/48653938/116589208-ca07e880-a8f2-11eb-945f-a84047f248fb.png)
+![navegação](https://user-images.githubusercontent.com/48653938/123013727-217a8000-d39b-11eb-828b-59472ee18fe9.png)
+
 
 # Vídeo de divulgação
 
