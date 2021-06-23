@@ -29,7 +29,7 @@ class AbstPlu extends StatelessWidget {
                   alignment: Alignment.topCenter,
                   child: Center(
                     child: Text(
-                      "ALGORITMO PLUGADO",
+                      "ABSTRAÇÃO PLUGADO",
                       style: TextStyle(
                           color: Colors.black,
                           fontSize: 25,
