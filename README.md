@@ -20,7 +20,8 @@ brunobarboza3103@gmail.com
 
 # Protótipos
 
-![Tela 1 W](https://user-images.githubusercontent.com/48653938/122934445-ea2db400-d345-11eb-9850-dd5e600df27e.png)
+![Tela 1 W](https://user-images.githubusercontent.com/48653938/123101013-ff6c1680-d409-11eb-9cf0-32a75d920337.png)
+
 
 
 Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a aparecerá essa tela, e após 4 segundos irá direcionar para a tela 2 automaticamente.
