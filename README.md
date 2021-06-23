@@ -47,7 +47,7 @@ Tela 1: É a tela inicial de abertura, assim que o usuário abrir o aplocativo a
 
 # Protótipo de Navegação
 
-![navegação](https://user-images.githubusercontent.com/48653938/123013727-217a8000-d39b-11eb-828b-59472ee18fe9.png)
+![navegação](https://user-images.githubusercontent.com/48653938/123101429-6f7a9c80-d40a-11eb-8c06-86f9b51e6690.png)
 
 
 # Vídeo de divulgação
