@@ -29,7 +29,7 @@ class _FirstPageState extends State<FirstPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.asset(
-              'assets/imagens/te.png',
+              'assets/imagens/ipc.png',
               width: 800,
               height: 800,
               fit: BoxFit.contain,
