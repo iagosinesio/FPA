@@ -16,7 +16,7 @@ brunobarboza3103@gmail.com
 
 # Logo
 
-![Logo](https://user-images.githubusercontent.com/48653938/114325745-120fc880-9b08-11eb-8974-e0a137c2e021.png)
+![Logo](https://user-images.githubusercontent.com/48653938/123106424-00ec0d80-d40f-11eb-8b29-90e3dd5b01d0.png)
 
 # Protótipos
 
